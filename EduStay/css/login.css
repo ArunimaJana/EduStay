@@ -1,0 +1,105 @@
+/* Body and general styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a2a72;
+    padding: 20px;
+    color: white;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+/* Login section */
+.login-section {
+    max-width: 600px;
+    margin: 60px auto;
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2a2a72;
+    font-weight: 700;
+}
+
+.login-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+/* Role buttons */
+.role-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.role-buttons .btn {
+    margin: 10px 0;
+    padding: 12px 25px;
+    color: white;
+    background-color: #FF6B6B;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+}
+
+.role-buttons .btn:hover {
+    background-color: #FF5252;
+}
+
+/* Footer */
+footer {
+    background-color: #2a2a72;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}

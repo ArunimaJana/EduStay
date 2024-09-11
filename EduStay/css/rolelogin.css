@@ -1,0 +1,130 @@
+/* Body and general styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a2a72;
+    padding: 20px;
+    color: white;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+/* Login section */
+.login-section {
+    max-width: 600px;
+    margin: 60px auto;
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2a2a72;
+    font-weight: 700;
+}
+
+/* Login form */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.login-form input {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.login-form .btn {
+    background-color: #FFD700;
+    color: #2a2a72;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form .btn:hover {
+    background-color: #FFC700;
+}
+
+/* Register link section */
+.register-link {
+    margin-top: 20px;
+}
+
+.register-link p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.register-link .btn-register {
+    display: inline-block;
+    background-color: #FF6B6B;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.register-link .btn-register:hover {
+    background-color: #FF5252;
+}
+
+/* Footer */
+footer {
+    background-color: #2a2a72;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
